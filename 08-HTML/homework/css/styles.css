@@ -1,0 +1,49 @@
+body {
+	background-image:url(../images/fondo.jpg);
+	background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+	background-attachment:scroll;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+h1 {
+    color: royalblue;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+.imgSize {
+    width: 400px;
+  }
+
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background-color: orange;
+  padding: 50px;
+  border: dashed;
+  border-color: royalblue;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+div {
+  align-self: center;
+}
+
+a {
+  align-self: center;
+}
+
+#divClass {
+  display: flex; 
+  flex-direction: column;
+  align-items: stretch;
+}
