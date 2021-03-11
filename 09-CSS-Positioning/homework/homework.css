@@ -7,32 +7,91 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: justify;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres {
+    margin-left: 200px;
+    margin-top: 100px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
 
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejercicioCinco {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 /* Ejercicio 6. */
+
+#ejercicioSiete {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#elementoUno {
+    align-self: center;
+    justify-self: center;
+}
+#elementoDos {
+    align-self: center;
+    justify-self: center;
+}
+#elementoTres {
+    align-self: center;
+    justify-self: center;
+}
+#elementoCuatro {
+    align-self: center;
+    justify-self: center;
+}
+/*#elementoUno {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#elementoDos {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#elementoTres {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#elementoCuatro {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/
