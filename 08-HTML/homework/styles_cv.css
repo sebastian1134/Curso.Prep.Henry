@@ -1,6 +1,6 @@
 body {
     font-family:'Roboto', sans-serif;
-    background-color:dimgray;
+    background-color: whitesmoke;
     color:blanchedalmond;
 }
 .contenedor {
@@ -10,10 +10,19 @@ body {
     padding: 40px;
     border-radius: 15px;
 }
+.divUno {
+    background-color: #343636;
+    padding: 10px;
+    border-radius: 15px;
+}
 .divDos {
     background-color: #343636;
     padding: 10px;
     border-radius: 15px;
+}
+p {
+    text-align:justify;
+    word-spacing: ;
 }
 img {
     width: 200px;
